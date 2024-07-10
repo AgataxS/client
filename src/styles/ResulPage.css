@@ -1,0 +1,14 @@
+.results-page {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .home-button {
+    display: inline-block;
+    background-color: #4a90e2;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
