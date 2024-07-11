@@ -1,0 +1,68 @@
+.register-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .register-page h2 {
+    color: #34a853;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .register-page form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .register-page input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #dddfe2;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .register-page input:focus {
+    outline: none;
+    border-color: #34a853;
+    box-shadow: 0 0 0 2px rgba(52, 168, 83, 0.2);
+  }
+  
+  .register-page button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #34a853;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-page button:hover {
+    background-color: #2d8e47;
+  }
+  
+  .register-page .login-link {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .register-page .login-link a {
+    color: #34a853;
+    text-decoration: none;
+  }
+  
+  .register-page .login-link a:hover {
+    text-decoration: underline;
+  }
